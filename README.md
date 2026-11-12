@@ -105,3 +105,13 @@ The model successfully predicted the sample cat image.
 ## Author
 
 Kamran Ali
+                                                                                                                                           ## Project Visualizations
+
+### Dataset Samples
+![CIFAR-10 Dataset Samples](images/dataset_samples.png)
+
+### Training Accuracy and Loss
+![Training Results](images/training_results.png)
+
+### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
