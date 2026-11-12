@@ -1,6 +1,7 @@
 # CIFAR-10 CNN Image Classification
 
 ## Project Overview
+
 This project uses a Convolutional Neural Network (CNN) to classify images into 10 different categories from the CIFAR-10 dataset.
 
 The model is built using TensorFlow and Keras and trained to recognize objects from small RGB images.
@@ -16,6 +17,7 @@ This project uses the CIFAR-10 dataset.
 - Number of Classes: 10
 
 ### Dataset Classes
+
 1. Airplane
 2. Automobile
 3. Bird
@@ -69,6 +71,7 @@ The CNN model contains:
 The model was evaluated using the CIFAR-10 test dataset.
 
 Evaluation metrics include:
+
 - Test Accuracy
 - Test Loss
 - Confusion Matrix
@@ -79,10 +82,20 @@ Evaluation metrics include:
 The trained model can predict the class of a user-uploaded image.
 
 It displays:
+
 - Predicted Class
 - Prediction Confidence
 
-**Note:** The model supports the 10 CIFAR-10 classes.
+### Example Prediction
+
+A sample cat image was uploaded to test the trained model.
+
+- **Predicted Class:** Cat
+- **Confidence:** 98.59%
+
+The model successfully predicted the sample cat image.
+
+**Note:** This confidence score belongs to one sample prediction. It is not the overall test accuracy of the model. The model predicts only among the 10 CIFAR-10 classes.
 
 ## Project Files
 
